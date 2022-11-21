@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        .maintext {
+            font-size: 24px;
+        }
+        .highlighted {
+            font-style: italic;
+            font-weight: bold;
+        }
+        th, tr, td, table {
+            border: solid 1px;
+        }
+    </style>
+    <title>Задание 1</title>
+</head>
+<body>
+    <div class="maintext">
+        Посмотрите на эту <span class="highlighted">замечательную</span> таблицу:
+        <table>
+            <tr>
+                <th>Амогус</th>
+                <th>Абобус</th>
+            </tr>
+            <tr>
+                <td>Большой</td>
+                <td>Средний</td>
+            </tr>        
+        </table>
+    </div>
+    <div>
+        <input type="button" onclick="callTree()" value="Generate tree">
+    </div>    
+    <div>
+        <pre id="call"></pre>
+    </div>
+    <script type="text/javascript" src="task-1.js"></script>
+</body>
+</html>
